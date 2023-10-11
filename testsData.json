@@ -1,0 +1,18 @@
+{
+  "TestUserRegister": {
+    "url": "https://serwisogloszendjango.onrender.com/",
+    "user": {
+      "username": "test1",
+      "password1": "test12345678",
+      "password2": "test12345678",
+      "name": "test1",
+      "surName": "test1",
+      "telNum": "333222111",
+      "street": "test1",
+      "city": "test1",
+      "zipCode": "11-333",
+      "state": "test1",
+      "email": "test1@test.com"
+    }
+  }
+}
