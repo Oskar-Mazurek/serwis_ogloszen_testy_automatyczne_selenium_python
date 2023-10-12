@@ -1,0 +1,22 @@
+cykl testowy 1:
+    Należy przeprowadzić test automatyczny funkcjonalności rejestracji użytkownika
+    cykl testu:
+
+        1. Wejście na stronę i przejście do rejestracji
+            dane: adres strony
+            oczekiwany rezultat: formularz rejestracji wyświetlony
+
+        2. Rejestracja użytkownika poprzez formularz
+            dane: dane rejestracji w pliku json
+            oczekiwany rezultat: konto utworzone
+cykl testowy 2:
+    Należy przeprowadzić test automatyczny funkcjonalności logowania użytkownika
+    cykl testu:
+
+        1. Wejście na stronę i przejście do logowania
+            dane: adres strony
+            oczekiwany rezultat: formularz logowania wyświetlony
+
+        2. Zalogowanie użytkownika poprzez formularz
+            dane: dane logowania w pliku json
+            oczekiwany rezultat: użytkownik zalogowany
