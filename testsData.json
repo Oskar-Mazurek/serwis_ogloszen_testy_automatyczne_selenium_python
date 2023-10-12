@@ -14,5 +14,12 @@
       "state": "test1",
       "email": "test1@test.com"
     }
+  },
+  "TestUserLogin": {
+    "url": "https://serwisogloszendjango.onrender.com/",
+    "user": {
+      "username": "test1",
+      "password": "test12345678"
+    }
   }
 }

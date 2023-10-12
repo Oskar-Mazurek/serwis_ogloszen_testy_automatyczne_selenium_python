@@ -1,5 +1,3 @@
-import allure
-
 from Template import Template
 from selenium.webdriver.common.by import By
 import allure
