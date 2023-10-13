@@ -1,4 +1,4 @@
-cykl testowy 1:
++cykl testowy 1:
     Należy przeprowadzić test automatyczny funkcjonalności rejestracji użytkownika
     cykl testu:
 
@@ -9,7 +9,7 @@ cykl testowy 1:
         2. Rejestracja użytkownika poprzez formularz
             dane: dane rejestracji w pliku json
             oczekiwany rezultat: konto utworzone
-cykl testowy 2:
++cykl testowy 2:
     Należy przeprowadzić test automatyczny funkcjonalności logowania użytkownika
     cykl testu:
 
@@ -20,3 +20,48 @@ cykl testowy 2:
         2. Zalogowanie użytkownika poprzez formularz
             dane: dane logowania w pliku json
             oczekiwany rezultat: użytkownik zalogowany
+
+-cykl testowy 3:
+    Należy przeprowadzić test automatyczny funkcjonalności dodawania ogłoszeń przez użytkownika
+    cykl testu:
+
+        1. Gdy użytkownik zalogowany przejście do jego profilu i kliknięcie przycisku 'Dodaj nowe ogłoszenie'
+            dane: adres strony
+            oczekiwany rezultat: formularz dodawania ogłoszeń wyświetlony
+
+        2. Dodanie ogłoszenia poprzez formularz
+            dane: dane ogłoszenia w pliku json
+            oczekiwany rezultat: ogłoszenie dodane
+
+-cykl testowy 4:
+    Należy przeprowadzić test automatyczny funkcjonalności wyszukiwania ogłoszenia
+    cykl testu:
+
+        1. Wejście na stronę i odnalezienie pola do wyszukiwania
+            dane: adres strony
+            oczekiwany rezultat: pole do wyszukiwania dostępne
+
+        2. Wpisanie nazwy samochodu do pola wyszukiwania, kliknięcie przycisku 'Wyszukaj'
+            dane: dane wyszukiwania w pliku json
+            oczekiwany rezultat: samochód odnaleziony
+
+	  3. Wejście w ogłoszenie i sprawdzenie tytułu ogłoszenia
+		dane: tytuł ogłoszenia w pliku json
+		oczekiwany rezultat: tytuł ogłoszenia zgodny z tytułem z pliku
+
+-cykl testowy 5:
+    Należy przeprowadzić test automatyczny funkcjonalności usuwania ogłoszenia
+    cykl testu:
+
+        1. Gdy użytkownik zalogowany przejście do jego profilu i odnalezienie ogłoszenia
+            dane: adres strony i nazwa ogłoszenia
+            oczekiwany rezultat: ogłoszenie widoczne
+
+	  2. kliknięcie przycisku 'Usuń' i wyświetlenie potwierdzenia usunięcia ogłoszenia 
+            dane: -
+            oczekiwany rezultat: potwierdzenie usunięcia ogłoszenia widoczne
+
+	 3. kliknięcie przycisku 'Potwierdź usunięcie' i wyświetlenie komiunikatu 
+            dane: -
+            oczekiwany rezultat: komunikat o usunięciu widoczny(Usunięto ogłoszenie!)
+
