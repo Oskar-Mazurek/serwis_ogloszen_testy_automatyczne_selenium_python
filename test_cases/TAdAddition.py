@@ -1,5 +1,6 @@
 import allure
 from Template import Template
+from allure_commons.types import AttachmentType
 from selenium.webdriver.common.by import By
 
 
@@ -14,5 +15,6 @@ class TAdAddition(Template):
             newAdButton = self.driver.find_element(By.XPATH, "//*[contains(text(),'Dodaj nowe')]")
             newAdButton.click()
             adFormTitle = self.driver.find_element(By.XPATH, "(//*[text()='Dodanie nowego ogłoszenia'])[2]")
+            allure.attach(self.driver.get_screenshot_as_png(), name="Screenshot", attachment_type=AttachmentType.PNG)
         except:
             assert False, "formularz dodawania ogłoszenia nie wyświetlony"
