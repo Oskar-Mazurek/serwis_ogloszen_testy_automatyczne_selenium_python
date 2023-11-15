@@ -2,7 +2,7 @@
   "TestUserRegister": {
     "url": "https://serwisogloszendjango.onrender.com/",
     "user": {
-      "username": "test9",
+      "username": "test6",
       "password1": "test12345678",
       "password2": "test12345678",
       "name": "test1",
@@ -18,22 +18,26 @@
   "TestUserLogin": {
     "url": "https://serwisogloszendjango.onrender.com/",
     "user": {
-      "username": "test4",
+      "username": "test6",
       "password": "test12345678"
     }
   },
   "TestAdSearch": {
     "url": "https://serwisogloszendjango.onrender.com/",
     "search_data": {
-      "car_name": "Volkswagen Scirocco"
+      "car_name": "Porsche 911 GT3"
     }
   },
-   "TestAdAddition": {
+  "TestAdAddition": {
     "url": "https://serwisogloszendjango.onrender.com/",
     "adData": {
       "adName": "Volkswagen Passat",
       "description": "1.9 TDI",
       "cost": 5000
     }
+  },
+  "TestAdDelete": {
+    "url": "https://serwisogloszendjango.onrender.com/",
+    "adName": "Volkswagen Passat"
   }
 }
